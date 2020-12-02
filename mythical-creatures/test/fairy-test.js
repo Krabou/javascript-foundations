@@ -6,19 +6,19 @@ describe('Fairy', () => {
     assert.isFunction(Fairy);
   });
 
-  it.skip('should instantiate a fairy', () => {
+  it('should instantiate a fairy', () => {
     const fairy = new Fairy();
 
     assert.isObject(fairy);
   });
 
-  it.skip('should have a name', () => {
+  it('should have a name', () => {
     const fairy = new Fairy('Holly');
 
     assert.equal(fairy.name, 'Holly');
   });
 
-  it.skip('should have some fairy dust by default', () => {
+  it('should have some fairy dust by default', () => {
     const fairy = new Fairy('Mab');
 
     assert.equal(fairy.dust, 10);

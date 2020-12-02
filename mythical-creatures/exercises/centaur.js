@@ -76,7 +76,7 @@ class Centaur {
     }
 
     drinkPotion() {
-        if (this._standing === true && this._nbTime >= 3) {
+        if (this.standing === true && this._nbTime >= 3) {
             this._nbTime = 0;
             this._cranky = false;
             return this
